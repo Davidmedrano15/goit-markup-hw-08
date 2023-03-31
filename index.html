@@ -274,7 +274,21 @@
           <h2 class="title">Nuestro Equipo</h2>
           <ul class="main__img list">
             <li class="main__list">
-              <img src="./images/andres.jpg" width="270" alt="andres" />
+              <picture>
+                <source
+                  srcset="./images/andres.jpg, ./images/andres-w@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/andres.jpg, ./images/andres-t@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/andres.jpg, ./images/andres@2x.jpg 2x"
+                  media="(min-width: 480px)"
+                />
+                <img src="./images/andres.jpg" alt="andres" />
+              </picture>
               <h3>Andrés Cubo</h3>
               <p>Diseñador de Productos</p>
               <ul class="main__icon">
@@ -301,7 +315,21 @@
               </ul>
             </li>
             <li class="main__list">
-              <img src="./images/carla.jpg" width="270" alt="carla" />
+              <picture>
+                <source
+                  srcset="./images/carla.jpg, ./images/carla-w@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/carla.jpg, ./images/carla-t@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/carla.jpg, ./images/carla@2x.jpg 2x"
+                  media="(min-width: 480px)"
+                />
+                <img src="./images/carla.jpg" alt="carla" />
+              </picture>
               <h3>Carla Palacios</h3>
               <p>Desarrolladora Frontend</p>
               <ul class="main__icon">
@@ -328,7 +356,21 @@
               </ul>
             </li>
             <li class="main__list">
-              <img src="./images/mario.jpg" width="270" alt="mario" />
+              <picture>
+                <source
+                  srcset="./images/mario.jpg, ./images/mario-w@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="./images/mario.jpg, ./images/mario-t@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="./images/mario.jpg, ./images/mario@2x.jpg 2x"
+                  media="(min-width: 480px)"
+                />
+              <img src="./images/mario.jpg" alt="mario" />
+              </picture>
               <h3>Mario Dorado</h3>
               <p>Marketing</p>
               <ul class="main__icon">
@@ -354,8 +396,21 @@
                 </li>
               </ul>
             </li>
-            <li class="main__list">
-              <img src="./images/pablo.jpg" width="270" alt="mario" />
+            <li class="main__list"><picture>
+              <source
+                srcset="./images/pablo.jpg, ./images/pablo-w@2x.jpg 2x"
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="./images/pablo.jpg, ./images/pablo-t@2x.jpg 2x"
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="./images/pablo.jpg, ./images/pablo@2x.jpg 2x"
+                media="(min-width: 480px)"
+              />
+              <img src="./images/pablo.jpg" alt="mario" />
+            </picture>
               <h3>Pablo Mijangos</h3>
               <p>Diseñador IU</p>
               <ul class="main__icon">
@@ -520,8 +575,8 @@
         </svg>
       </button>
       <ul class="mobile-menu">
-        <li><a href="" class="link">Studio</a></li>
-        <li><a href="" class="link">Portfolio</a></li>
+        <li><a href="./index.html" class="link">Studio</a></li>
+        <li><a href="./portfolio.html" class="link">Portfolio</a></li>
         <li><a href="" class="link">Contactos</a></li>
       </ul>
       <ul class="mobile-list">
